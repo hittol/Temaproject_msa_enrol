@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  httpd:
+    container_name: project_enrol_http
+    build: ./httpd_enrolment
+
+
+  tomcat:
+    container_name: project_enrol_tomcat
+    build: ./tomcat_enrolment
